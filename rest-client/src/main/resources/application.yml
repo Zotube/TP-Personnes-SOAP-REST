@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: rest-client
+
+soap:
+  client:
+    url: http://localhost:8081/ws
+
+logging:
+  level:
+    org.springframework.ws: INFO
+    tn.univ.tp.rest: INFO

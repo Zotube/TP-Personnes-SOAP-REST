@@ -1,0 +1,23 @@
+# Fichiers générés par Maven
+**/target/
+
+# Journaux d'exécution
+*.log
+*.pid
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Fichiers d'environnement
+.env
+.env.*
+!.env.example
